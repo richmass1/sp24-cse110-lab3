@@ -1,15 +1,16 @@
 <!DOCTYPE html>
+<meta charset="utf-8" />
 <html lang="en">
   <head>
     <title>Delivery Menu Meeting Minutes</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
   </head>
   <body>
     <header>
         <h1>Delivery Menu Meeting Minutes</h1>
         <p>7/31/2017, 5:00pm - 6:00pm</p>
-    </header>
-    <main>
+    
+    <hr>
         <details><summary>Meeting Participants</summary>
         <div>
             <ul>
@@ -19,17 +20,23 @@
                 <li>Bob</li>
             </ul>
         </div></details>
+    </header>
+    <nav>
         <h3>Topics</h3>
         <ol>
             <li>Menu items</li>
             <li>Menu layout</li>
         </ol>
+    </nav>
+    <main>
+        <section>
         <h3>Meeting procedure</h3>
         <ol>
-            <li>Ask for ideas/suggestions about <i>given topic</i></li>
+            <li>Ask for <b>ideas/suggestions</b> about <i>given topic</i></li>
             <li>Discuss ideas</li>
             <li>Create a list of ideas that participants agree on</li>
         </ol>
+        </section>
         <h2>Menu items</h2>
         <h4>Pizza</h4>
         <ul>
@@ -48,10 +55,53 @@
             <li>Italian chopped salad</li>
         </ul>
         <h2>Menu layout</h2>
-        <p>Alice provided <a href="https://www.lornasitaliankitchen.com/_files/ugd/d63834_bb6ce1fc6c55415fbff96c8b1c616f22.pdf">this menu</a> as inspiration</p>
-        <hr>
-        <p>Steve made this sketch as a <em>mock-up</em> of what our menu could look like:</p>
+        <p>Alice provided <a href="https://www.lornasitaliankitchen.com/_files/ugd/d63834_bb6ce1fc6c55415fbff96c8b1c616f22.pdf">this menu</a> as <strong>inspiration</strong> <br> Steve made this sketch as a <em>mock-up</em> of what our menu could look like:</p>
         <img src="menusketch.png" alt="menu mock-up" width="500">
+        <h1>Unrelated content</h1>
+        <h3>Amen break:</h3>
+        <audio controls src="amenA.mp3"></audio>
+
+        <h3>Title card I made for team intro video:</h3>
+        <video controls width="400" src="Presentation1.mp4"></video>
     </main>
+    <footer>
+        <h2>Feedback form</h2>
+        <form>
+            Enter your email: <input type="text">
+            <fieldset>
+                <legend>This website is...</legend>
+                <input type="radio" name="radio"/> Good
+                <input type="radio" name="radio"/> Bad
+                <input type="radio" name="radio"/> No opinion
+            </fieldset>
+            <fieldset>
+                <legend>Select things this website could improve:</legend>
+                <input type="checkbox"/> Content
+                <input type="checkbox"/> Formatting
+            </fieldset>
+            <fieldset>
+                <legend>I first visited this website on...</legend>
+                <input type="date"/>
+            </fieldset>
+            I am viewing this website on:
+            <select>
+                <option>Desktop</option>
+                <option>Mobile</option>
+            </select>
+            <input list="browsers"/>
+            <datalist id="browsers">
+                <option value="Chrome">Chrome</option>
+                <option value="Firefox"></option>
+                <option value="Internet Explorer"></option>
+                <option value="Safari"></option>
+            </datalist>
+            <br>
+            Other comments:
+            <br>
+            <textarea rows="5" cols="15">One thing I would add to this website is...</textarea>
+            <br>
+            <button type="button">Submit form</button>
+        </form>
+    </footer>
   </body>
 </html>
