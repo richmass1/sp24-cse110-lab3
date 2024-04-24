@@ -1,0 +1,128 @@
+/* yeah this page is gonna look like hot trash */
+header {
+    color: #444;
+    background-color: #ff77a0;
+}
+
+.personlist {
+    color: var(--my-color123, hsl(218, 57%, 34%));
+    background-color: rgb(214, 214, 214);
+    text-align: center;
+    width: 400px;
+    height: 2cm;
+}
+
+/* let's just put all the longhand box formatting in here haha */
+nav {
+    width: 20em;
+    height: 2in;
+    margin-top: 35px;
+    margin-bottom: 31px;
+    margin-left: 32px;
+    margin-right: 33px;
+    padding-left: 12px;
+    padding-bottom: 21px;
+    padding-right: 10px;
+    padding-top: 11px;
+    border-color: aquamarine;
+    border-style: dotted;
+    border-width: 8px;
+    border-radius: 20px;
+}
+
+.topiclist {
+    width: 50vw;
+    height: 10vh;
+    border: 5px solid orange;
+    margin: 20px;
+    padding: 21px;
+}
+
+h3 {
+    text-decoration: dashed underline greenyellow;
+    min-width: 40px;
+}
+
+.pastalist {
+    max-width: 15px;
+    position: static;
+}
+
+.dontshow {
+    display: none;
+}
+
+span {
+    display: inline;
+}
+
+#pagetitle {
+    position: sticky;
+    top: 10px;
+}
+
+button:hover {
+    color: sandybrown;
+    background-color: black;
+}
+
+textarea:active {
+    background-color: rgb(227, 49, 255);
+}
+
+fieldset.radiofs {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 15px;
+}
+
+fieldset.chkbx {
+    display: grid;
+    grid-template-columns: 70px 70px;
+    grid-template-rows: 30px 30px;
+    justify-items: left;
+}
+
+@media (max-width: 49rem) {
+    li {
+      text-decoration: black wavy underline;
+    }
+}
+
+h1, p {
+    font-family: "Sedan", serif;
+}
+
+* {
+    text-wrap: wrap;
+}
+
+input[type="date"] {
+    background-color: beige;
+
+    &:hover {
+        background-color: lightgreen;
+    }
+}
+
+ul li {
+    list-style-type: square;
+}
+
+fieldset > legend {
+    color: goldenrod
+}
+
+h4 + ul {
+    text-decoration: black underline;
+}
+
+h2 ~ p {
+    font-size: 20px;
+}
+
+footer:has(h2) {
+    margin: 10px;
+    border: 3px dashed blue;
+}
