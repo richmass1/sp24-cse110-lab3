@@ -4,15 +4,17 @@
     <meta charset="utf-8" />
     <title>Delivery Menu Meeting Minutes</title>
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
   </head>
   <body>
     <header>
-        <h1>Delivery Menu Meeting Minutes</h1>
+        <div class="pagetitle"><h1>Delivery Menu Meeting Minutes</h1></div>
         <p>7/31/2017, 5:00pm - 6:00pm</p>
     
     <hr>
         <details><summary>Meeting Participants</summary>
-        <div>
+        <div class="personlist">
             <ul>
                 <li><span>Steve</span></li>
                 <li>Jim</li>
@@ -23,10 +25,11 @@
     </header>
     <nav>
         <h3>Topics</h3>
+        <div class="topiclist">
         <ol>
             <li>Menu items</li>
             <li>Menu layout</li>
-        </ol>
+        </ol></div>
     </nav>
     <main>
         <section>
@@ -37,6 +40,7 @@
             <li>Create a list of ideas that participants agree on</li>
         </ol>
         </section>
+        <div class="dontshow">Hello123qwerty</div>
         <h2>Menu items</h2>
         <h4>Pizza</h4>
         <ul>
@@ -45,10 +49,10 @@
             <li>Pepperoni</li>
         </ul>
         <h4>Pasta</h4>
-        <ul>
+        <div class="pastalist"><ul>
             <li>Spaghetti bolognese</li>
             <li>Fettucine cacio e pepe</li>
-        </ul>
+        </ul></div>
         <h4>Salads</h4>
         <ul>
             <li>Caesar</li>
@@ -68,13 +72,13 @@
         <h2>Feedback form</h2>
         <form>
             Enter your email: <input type="text">
-            <fieldset>
+            <fieldset class="radiofs">
                 <legend>This website is...</legend>
                 <input type="radio" name="radio"/> Good
                 <input type="radio" name="radio"/> Bad
                 <input type="radio" name="radio"/> No opinion
             </fieldset>
-            <fieldset>
+            <fieldset class="chkbx">
                 <legend>Select things this website could improve:</legend>
                 <input type="checkbox"/> Content
                 <input type="checkbox"/> Formatting
